@@ -38,5 +38,10 @@ class Program
         }
         int frequency1 = LinkedHashMap.Get("paranoid");
         Console.WriteLine(frequency1);
+
+        LinkedHashMap.Remove("avoidable");
+        int frequency2 = LinkedHashMap.Get("avoidable");
+
+        Console.WriteLine(frequency2);
     }
 }
